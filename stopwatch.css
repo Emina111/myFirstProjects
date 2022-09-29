@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(57, 144, 202);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    user-select: none;
+}
+
+.wrapper .time {
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.2);
+    padding: 0 10px;
+}
+
+.wrapper .time span{
+    width: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.time span.colon{
+    width: 10px;
+}
+
+.time span.ms-colon,
+.time span.milisecond{
+     color: rgb(24, 102, 153);
+}
+
+.wrapper .buttons{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons button{
+    padding: 6px 16px;
+    outline: none;
+    border: none;
+    margin: 0 5px;
+    color:rgb(24, 102, 153);
+    background-color: white;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.2);
+}
